@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solicitud de Empleo</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            position: relative; /* Para posicionar los elementos absolutamente en relación con el cuerpo */
+            height: 100vh; /* Establece el cuerpo para que ocupe el 100% de la altura de la ventana */
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+            z-index: -1; /* Coloca la imagen detrás de los elementos del contenido */
+        }
+        .content {
+            position: absolute;
+            bottom: 180px; /* Mueve los hipervínculos 20px desde la parte inferior */
+            right: 300px; /* Mueve los hipervínculos 20px desde el lado derecho */
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0; /* Elimina el margen predeterminado */
+            text-align: center; /* Alinea el texto de los hipervínculos a la derecha */
+        }
+        li {
+            margin-bottom: 100px; /* Reducir el espacio entre los elementos de la lista */
+        }
+        a {
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            background-color: rgb(112, 30, 145);
+            padding: 30px 50px; /* Aumenta el tamaño de los hipervínculos */
+            border-radius: 100px;
+        }
+        a:hover {
+            background-color: rgba(241, 192, 123, 0.925);
+        }
+    </style>
+</head>
+<body>
+    <img src="Diseño sin título (2).png" alt="1">
+    <div class="content">
+        <ul>
+            <li><a href="https://forms.gle/X5FEkViHa6CS2YDSA">Formulario de solicitud </a></li>
+            <li><a href="inicio.html">Horarios </a></li>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="esenciadecafe@gmail.com">Correo</a></li>
+        </ul>
+    </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+body {
+     background-color:rgb(15, 58, 216);
+
+}
+/*cafe
+.footer{
+width: 97% !important;
+height: 1050px !important;
+}*/
+ *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      text-decoration:none;
+      list-style:none;
+     }
+
+ p{
+     font-family:Arial,Helvetica,sans-serif;
+}
+.contanier {
+     max-width:200px;
+     margin:0 auto;
+}
+.header{
+     background: linear-gradient(
+          180deg,
+          rgb(217, 92, 177)0%,
+          rgb(90, 204, 132)51%,
+          rgb(15, 58, 216)100%);
+          min-height:70vh;
+          display:flex;
+          align-items: center;
+}
+.menu{
+     position:absolute;
+     top:0;
+     left:0;
+     right:0;
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.logo img{
+     width: 225px;
+}
+.menu .navbar ul li {
+     position:relative;
+     float: left;
+}
+.menu .navbar ul li a{
+     font: size 18px;
+     padding: 40px;
+     color: rgb(86, 16, 56);
+
+     display: block;
+     font-weight: bold;
+}
+
+.socials-1 img{
+     width: 30;
+     margin-right: 15px;
+}
+#menu{
+     display:none;
+}
+.menu-icono{
+     width: 25;
+}
+.menu label{
+     cursor: pointer;
+     display: none;
+}
+.header-content{
+     padding: 100px 0;
+     display: flex;
+     align-items: center;
+}
+ h1{
+     font-size: 50px;
+     line-height: 40px;
+     color: black;
+     margin-bottom: 25px;
+}
+p{
+     font-size: 18px;
+      color: black;
+      margin-bottom: 35px;
+}
+.btn-1 {
+     display: inline-block;
+     padding:13px  30px;
+     background-color: rgb(83, 214, 148);
+     color:aliceblue;
+     border-radius: 25px;
+     font-size: 18px;
+
+}
+.header-img{
+     width:50%;
+     text-align: center;
+}
+.header-img img{
+     width: 550px;
+}
+.about{
+     padding: 100px 0;
+     background-color: rgb(15, 58, 216);
+}
+.about-content{
+     display: flex;
+     position: relative;
+}
+.ab1{
+     position: absolute;
+     width: 50px;
+     left: 0;
+     top:0 ;
+     rotate: 220deg;
+}
+.ab2{
+     position: absolute;
+     width: 50px;
+     left: 750px;
+     top: 450px;
+     rotate: 380deg;
+}
+.ab3{
+     position: absolute;
+     width: 10px;
+     left: 0px;
+right: 0;
+}
+.about-img{
+     width: 100%;
+     text-align: center;
+}
+.about-img img{
+     width:  350px;
+}
+.about-txt{
+     width: 50%;
+}
+h2{
+     font-size: 80px;
+     line-height: 30px;
+     color: black;
+     margin-bottom: 50px;
+}
+.btn-2 {
+     display: inline-block;
+     padding: 13px 45px;
+     font-size:  18px;
+     background-color: rgb(210, 100, 32);
+     color: aliceblue;
+     border: 0;
+     cursor: pointer;
+}
+.btn-2:hover {
+     background-color: rgb(90, 204, 132)51%,
+
+}
+.centrado {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+   }
